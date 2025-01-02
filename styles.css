@@ -3,7 +3,8 @@ html, body{
     font-family: Arial, sans-serif;
     height: 100%;
 }
-nav {
+
+.navbar {
     background-color: #A3080B;
     color: white;
     padding: 10px;
@@ -11,9 +12,12 @@ nav {
     top: 0;
     z-index: 1000;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-img {
+.navbar a img {
     width: 150px;
     height: 50px;
     cursor: pointer;
@@ -26,15 +30,18 @@ ul {
     margin: 0;
     display: flex;
     align-items: center;
-
 }
+
 li {
     margin-right: 20px;
 }
-li:nth-child(2) {
+
+li:nth-child(1) {
     margin-left: auto;
+    align-items: flex-end;
 }
-a{
+
+a {
     color: BLACK;
     text-decoration: none;
     padding: 10px;
@@ -42,18 +49,45 @@ a{
     border-radius: 20px;
     cursor: pointer;
 }
-.nav:hover{
+
+.nav:hover {
     background-color: black;
     border-radius: 20px;
     color: white;
     transform: scale(1.05);
 }
-.active{
+
+.active-page {
     background-color: black;
     border-radius: 20px;
     color: white;
 }
 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.hamburger .line {
+    width: 30px;
+    height: 3px;
+    background: #fefefe;
+    margin: 4px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+    nav ul{
+        display: none;
+    }
+   
+}
 .carousel {
     position: relative;
     max-width: 100%;
@@ -144,6 +178,37 @@ a{
     margin-left: 100px;
     margin-right: 100px;
 }
+
+#scrollToTop {
+    display: block; 
+    position: fixed;
+    bottom: 20px; 
+    left: 20px; 
+    z-index: 9999;
+    background-color: #A3080B;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  }
+  
+  #scrollToTop.show {
+    opacity: 1; 
+    visibility: visible; 
+  }
+  
+  
+  #scrollToTop:hover {
+    background-color: #800000; 
+  }
 
 
 footer {

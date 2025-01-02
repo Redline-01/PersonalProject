@@ -8,14 +8,33 @@
 </head>
 <body>
 
+    
+
     <nav class="navbar">
+    <a href="index.php"><img src="kfc-logo.png" alt="KFC Logo"></a>
+
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
         <ul>
-            <li><a href="index.php"><img src="kfc-logo.png" alt="KFC Logo"></a></li>
-            <li><a href="index.php" class="active">Home</a></li>
+            <li><a href="index.php" class="active-page">Home</a></li>
             <li><a href="about.php" class="nav">About</a></li>
             <li><a href="contact.php" class="nav">Contact</a></li>
         </ul>
     </nav>
+
+
+
+    <script>
+    const hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function() {
+        const nav = document.querySelector("nav");
+        nav.classList.toggle("active");
+    }
+</script>
+    
 
     <div class="carousel">
         <div class="carousel-inner">
@@ -40,6 +59,8 @@
         <h1>Welcome to KFC</h1>
         <p>At KFC, we are proud to serve you the best fried chicken in the world. Our secret recipe has been passed down through generations and we are proud to share it with you. We have a wide range of products to suit your needs, from our famous fried chicken to our delicious sides and desserts. We are committed to providing you with the best quality food and service, so come and visit us today!</p>
     </div>
+
+    <button id="scrollToTop" title="Scroll To Top">↑</button>
 
 
 
@@ -77,4 +98,5 @@
 </body>
 
 <script src="slider.js"></script>
+<script src="scrollToTop.js"></script>
 </html>
