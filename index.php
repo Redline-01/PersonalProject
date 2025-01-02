@@ -10,10 +10,10 @@
 
     <nav class="navbar">
         <ul>
-            <li><a href="index.html"><img src="kfc-logo.png" alt="KFC Logo"></a></li>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html" class="nav">About</a></li>
-            <li><a href="contact.html" class="nav">Contact</a></li>
+            <li><a href="index.php"><img src="kfc-logo.png" alt="KFC Logo"></a></li>
+            <li><a href="index.php" class="active">Home</a></li>
+            <li><a href="about.php" class="nav">About</a></li>
+            <li><a href="contact.php" class="nav">Contact</a></li>
         </ul>
     </nav>
 
@@ -51,9 +51,9 @@
             <div class="footer-section">
                 <h1>Quick Links</h1>
                 <ul>
-                    <a href="index.html"><li>Home</li></a>
-                    <a href="about.html"><li>About</li></a>
-                    <a href="contact.html"><li>Contact</li></a>
+                    <a href="index.php"><li>Home</li></a>
+                    <a href="about.php"><li>About</li></a>
+                    <a href="contact.php"><li>Contact</li></a>
                 </ul>
             </div>
             <div class="footer-section">
