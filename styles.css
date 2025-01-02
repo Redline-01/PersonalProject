@@ -1,11 +1,16 @@
 html, body{
     margin: 0;
     font-family: Arial, sans-serif;
+    height: 100%;
 }
 nav {
     background-color: #A3080B;
     color: white;
     padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    overflow: hidden;
 }
 
 img {
