@@ -58,10 +58,10 @@
             </div>
             <div class="footer-section">
                 <h1>Contact Us</h1>
-                <form action="index.html" method="post">
+                <form action="contactmsgs.php" method="POST">
                     <input type="email" name="email" class="text-input" placeholder="Your email address..." required>
                     <textarea name="message" class="text-input" placeholder="Your message..." required></textarea>
-                    <button type="submit" class="contact-btn">
+                    <button type="submit" class="contact-btn" name="submit">
                         Send
                     </button>
                 </form>
