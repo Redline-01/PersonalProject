@@ -13,11 +13,16 @@
     <nav class="navbar">
     <a href="index.php"><img src="kfc-logo.png" alt="KFC Logo"></a>
 
-    <div class="hamburger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-    </div>
+    <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
+        <label for="checkbox3">
+            <div class="hamburger hamburger3" onclick="toggleMenu()">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+                <span class="bar bar4"></span>
+            </div>
+        </label>
+
         <ul>
             <li><a href="index.php" class="active-page">Home</a></li>
             <li><a href="about.php" class="nav">About</a></li>
@@ -25,15 +30,12 @@
         </ul>
     </nav>
 
-
-
     <script>
-    const hamburger = document.querySelector(".hamburger");
-    hamburger.onclick = function() {
-        const nav = document.querySelector("nav");
-        nav.classList.toggle("active");
-    }
-</script>
+       function toggleMenu() {
+    const navbarUl = document.querySelector('.navbar ul');
+    navbarUl.classList.toggle('show');
+}
+    </script>
     
 
     <div class="carousel">
