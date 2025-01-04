@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Home</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="kfcfavicon.png">
+    <title>About</title>
 </head>
 <body>
 

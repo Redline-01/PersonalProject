@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="shop.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="kfcfavicon.png">
     <title>Shop</title>
 </head>
 <body>
