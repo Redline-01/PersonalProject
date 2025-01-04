@@ -377,6 +377,9 @@ footer {
     transform: scale(1.05);
     width: 20%;
 }
+.footer-section .contact-btn:active{
+    background-color: #FF4F4B;
+}
 
 .footer-bottom {
     background-color: #A3080B;
