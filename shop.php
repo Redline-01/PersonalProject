@@ -23,9 +23,9 @@
         </label>
 
         <ul>
-            <li><a href="index.php" class="active-page">Home</a></li>
+            <li><a href="index.php" class="nav">Home</a></li>
             <li><a href="about.php" class="nav">About</a></li>
-            <li><a href="contact.php" class="nav">Contact</a></li>
+            <li><a href="shop.php" class="active-page">Shop</a></li>
         </ul>
     </nav>
 

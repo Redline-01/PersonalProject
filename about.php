@@ -9,14 +9,32 @@
 <body>
 
     
-    <nav class="navbar">
+<nav class="navbar">
+    <a href="index.php"><img src="kfc-logo.png" alt="KFC Logo"></a>
+
+    <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
+        <label for="checkbox3">
+            <div class="hamburger hamburger3" onclick="toggleMenu()">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+                <span class="bar bar4"></span>
+            </div>
+        </label>
+
         <ul>
-            <li><a href="index.php"><img src="kfc-logo.png" alt="KFC Logo"></a></li>
-            <li><a href="index.php" class="nav">Home</a></li>
-            <li><a href="about.php" class="active">About</a></li>
-            <li><a href="contact.php" class="nav">Contact</a></li>
+            <li><a href="index.php" class="active-page">Home</a></li>
+            <li><a href="about.php" class="nav">About</a></li>
+            <li><a href="shop.php" class="nav">Shop</a></li>
         </ul>
     </nav>
+
+    <script>
+       function toggleMenu() {
+    const navbarUl = document.querySelector('.navbar ul');
+    navbarUl.classList.toggle('show');
+}
+    </script>
 
 
 
