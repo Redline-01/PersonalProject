@@ -17,7 +17,7 @@
 
         <ul>
             <li><a href="index.php" class="nav">Home</a></li>
-            <li><a href="about.php" class="active-page">About</a></li>
+            <li><a href="about.php" class="active-page  ">About</a></li>
             <li><a href="shop.php" class="nav">Shop</a></li>
         </ul>
         <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
@@ -62,7 +62,7 @@
 
  
 
-<button id="scrollToTop" title="Scroll To Top">↑</button>
+      <button id="scrollToTop" title="Scroll To Top">↑</button>
  
     <footer>
         <div class="footer-content">
@@ -91,4 +91,6 @@
         </footer>
     
 </body>
+
+<script src="scrollToTop.js"></script>
 </html>
