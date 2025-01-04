@@ -16,8 +16,8 @@
 
 
         <ul>
-            <li><a href="index.php" class="active-page">Home</a></li>
-            <li><a href="about.php" class="nav">About</a></li>
+            <li><a href="index.php" class="nav">Home</a></li>
+            <li><a href="about.php" class="active-page">About</a></li>
             <li><a href="shop.php" class="nav">Shop</a></li>
         </ul>
         <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
