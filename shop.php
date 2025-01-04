@@ -42,19 +42,19 @@
 
     <div class="shop-container">
         <div class="shop-item">
-            <img src="chicken-bucket.jpg" alt="Chicken Bucket">
+            <img src="kfcbucket.jpeg" alt="Chicken Bucket">
             <h3>Chicken Bucket</h3>
             <p>Price: $10.00</p>
             <button class="shop-btn">Add to Cart</button>
         </div>
         <div class="shop-item">
-            <img src="chicken-wings.jpg" alt="Chicken Wings">
+            <img src="kfcwings.jpeg" alt="Chicken Wings">
             <h3>Chicken Wings</h3>
             <p>Price: $5.00</p>
             <button class="shop-btn">Add to Cart</button>
         </div>
         <div class="shop-item">
-            <img src="chicken-wings.jpg" alt="Chicken Wings">
+            <img src="kfcstrips.jpeg" alt="Chicken Wings">
             <h3>Chicken Strips</h3>
             <p>Price: $9.00</p>
             <button class="shop-btn">Add to Cart</button>
