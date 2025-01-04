@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="icon" type="image/png" sizes="16x16" href="kfcfavicon.png">
     <title>About</title>
 </head>
@@ -37,9 +38,32 @@
 }
     </script>
 
+    <h1 id="main-title">About Us</h1>
+
+    <div class="about-container">
+        <div class="about-item">
+            <h2>Our Story</h2>
+            <p>Founded by Colonel Harland Sanders, KFC is known for its delicious chicken recipes. The company was founded in 1930 and has since grown to become one of the most popular fast food chains in the world.</p>
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="about-item">
+            <h2>Our Mission</h2>
+            <p>Our mission is to provide our customers with high-quality, delicious food at an affordable price. We strive to maintain the highest standards of food safety and customer service.</p>
+        </div>
+        <div class="horizontal-line"></div>
+        <div class="about-item">
+            <h2>Our Values</h2>
+            <p>At KFC, we value quality, integrity, and innovation. We are committed to providing our customers with the best possible dining experience, whether they are dining in our restaurants or ordering takeout.</p>
+        </div>
+    </div>
+
+    
 
 
+ 
 
+<button id="scrollToTop" title="Scroll To Top">↑</button>
+ 
     <footer>
         <div class="footer-content">
             <div class="footer-section">
