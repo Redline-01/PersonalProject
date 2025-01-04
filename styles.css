@@ -114,7 +114,7 @@ a {
 }
 
 .checkbox3 {
-    display: none;
+   display: none;
 }
 
 .checkbox3:checked + label > .hamburger3 > .bar1{
@@ -146,18 +146,21 @@ a {
         display: none;
         flex-direction: column;
         background-color: #A3080B;
-        position: absolute;
+        position: relative;
         top: 100%; 
         left: 0;
         right: 0;
-        z-index: 9999;
+        z-index: 9999 !important;
         transition: max-height 0.3s ease-out; 
         overflow: hidden;
         max-height: 0; 
     }
     .navbar ul.show {
         display: flex;
-        max-height: 500px; 
+        max-height: 500px;
+        position: absolute;
+        background-color: #A3080B;
+        z-index: 9999 !important;
     }
     .hamburger {
         display: flex; 

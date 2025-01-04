@@ -13,7 +13,15 @@
 <nav class="navbar">
     <a href="index.php"><img src="kfc-logo.png" alt="KFC Logo"></a>
 
-    <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
+    
+
+        <ul>
+            <li><a href="index.php" class="nav">Home</a></li>
+            <li><a href="about.php" class="nav">About</a></li>
+            <li><a href="shop.php" class="active-page">Shop</a></li>
+        </ul>
+
+        <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
         <label for="checkbox3">
             <div class="hamburger hamburger3" onclick="toggleMenu()">
                 <span class="bar bar1"></span>
@@ -22,12 +30,6 @@
                 <span class="bar bar4"></span>
             </div>
         </label>
-
-        <ul>
-            <li><a href="index.php" class="nav">Home</a></li>
-            <li><a href="about.php" class="nav">About</a></li>
-            <li><a href="shop.php" class="active-page">Shop</a></li>
-        </ul>
     </nav>
 
     <script>
