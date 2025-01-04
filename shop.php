@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="shop.css">
+    <title>Shop</title>
 </head>
 <body>
 
-    
-
-    <nav class="navbar">
+<nav class="navbar">
     <a href="index.php"><img src="kfc-logo.png" alt="KFC Logo"></a>
 
     <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
@@ -26,7 +25,7 @@
         <ul>
             <li><a href="index.php" class="active-page">Home</a></li>
             <li><a href="about.php" class="nav">About</a></li>
-            <li><a href="shop.php" class="nav">Shop</a></li>
+            <li><a href="contact.php" class="nav">Contact</a></li>
         </ul>
     </nav>
 
@@ -36,37 +35,39 @@
     navbarUl.classList.toggle('show');
 }
     </script>
+
+    <h1 id="main-title">Our Delicious Food</h1>
     
 
-    <div class="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item">
-                <img src="KFCslide4.jpg" alt="Image 1">
-            </div>
-            <div class="carousel-item">
-                <img src="KFCslide4.jpg" alt="Image 2">
-            </div>    
-            <div class="carousel-item">
-                <img src="KFCslide4.jpg" alt="Image 3">
-            </div>
+    <div class="shop-container">
+        <div class="shop-item">
+            <img src="chicken-bucket.jpg" alt="Chicken Bucket">
+            <h3>Chicken Bucket</h3>
+            <p>Price: $10.00</p>
+            <button class="shop-btn">Add to Cart</button>
+        </div>
+        <div class="shop-item">
+            <img src="chicken-wings.jpg" alt="Chicken Wings">
+            <h3>Chicken Wings</h3>
+            <p>Price: $5.00</p>
+            <button class="shop-btn">Add to Cart</button>
+        </div>
+        <div class="shop-item">
+            <img src="chicken-wings.jpg" alt="Chicken Wings">
+            <h3>Chicken Strips</h3>
+            <p>Price: $9.00</p>
+            <button class="shop-btn">Add to Cart</button>
+        </div>
 
         </div>
-        <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
-        <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
-    </div>
-
-    <div class="horizontal-line"></div>
-
-    <div class="content">
-        <h1>Welcome to KFC</h1>
-        <p>At KFC, we are proud to serve you the best fried chicken in the world. Our secret recipe has been passed down through generations and we are proud to share it with you. We have a wide range of products to suit your needs, from our famous fried chicken to our delicious sides and desserts. We are committed to providing you with the best quality food and service, so come and visit us today!</p>
-    </div>
-
-    <button id="scrollToTop" title="Scroll To Top">↑</button>
+        
 
 
 
 
+
+
+        <button id="scrollToTop" title="Scroll To Top">↑</button>
 
 
     <footer>
@@ -94,11 +95,8 @@
             &copy; KFC | Designed by Redon Bytyqi
         </div>
         </footer>
-
-
-
+    
 </body>
 
-<script src="slider.js"></script>
 <script src="scrollToTop.js"></script>
 </html>
